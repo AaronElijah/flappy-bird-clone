@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8F1CB11F2403F30044EE6D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F1CAC1F2403F30044EE6D /* bg.png */; };
+		0C8F1CB21F2403F30044EE6D /* flappy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F1CAD1F2403F30044EE6D /* flappy1.png */; };
+		0C8F1CB31F2403F30044EE6D /* flappy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F1CAE1F2403F30044EE6D /* flappy2.png */; };
+		0C8F1CB41F2403F30044EE6D /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F1CAF1F2403F30044EE6D /* pipe1.png */; };
+		0C8F1CB51F2403F30044EE6D /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C8F1CB01F2403F30044EE6D /* pipe2.png */; };
 		0CD0B5CA1F22C5750065BF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD0B5C91F22C5750065BF2D /* AppDelegate.swift */; };
 		0CD0B5CC1F22C5750065BF2D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0B5CB1F22C5750065BF2D /* GameScene.sks */; };
 		0CD0B5CE1F22C5750065BF2D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0CD0B5CD1F22C5750065BF2D /* Actions.sks */; };
@@ -18,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C8F1CAC1F2403F30044EE6D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0C8F1CAD1F2403F30044EE6D /* flappy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy1.png; sourceTree = "<group>"; };
+		0C8F1CAE1F2403F30044EE6D /* flappy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flappy2.png; sourceTree = "<group>"; };
+		0C8F1CAF1F2403F30044EE6D /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
+		0C8F1CB01F2403F30044EE6D /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
 		0CD0B5C61F22C5750065BF2D /* Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD0B5C91F22C5750065BF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD0B5CB1F22C5750065BF2D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +76,11 @@
 				0CD0B5CF1F22C5750065BF2D /* GameScene.swift */,
 				0CD0B5D11F22C5750065BF2D /* GameViewController.swift */,
 				0CD0B5D31F22C5750065BF2D /* Main.storyboard */,
+				0C8F1CAC1F2403F30044EE6D /* bg.png */,
+				0C8F1CAD1F2403F30044EE6D /* flappy1.png */,
+				0C8F1CAE1F2403F30044EE6D /* flappy2.png */,
+				0C8F1CAF1F2403F30044EE6D /* pipe1.png */,
+				0C8F1CB01F2403F30044EE6D /* pipe2.png */,
 				0CD0B5D61F22C5750065BF2D /* Assets.xcassets */,
 				0CD0B5D81F22C5750065BF2D /* LaunchScreen.storyboard */,
 				0CD0B5DB1F22C5750065BF2D /* Info.plist */,
@@ -134,7 +149,12 @@
 			files = (
 				0CD0B5D51F22C5750065BF2D /* Main.storyboard in Resources */,
 				0CD0B5CC1F22C5750065BF2D /* GameScene.sks in Resources */,
+				0C8F1CB11F2403F30044EE6D /* bg.png in Resources */,
 				0CD0B5D71F22C5750065BF2D /* Assets.xcassets in Resources */,
+				0C8F1CB51F2403F30044EE6D /* pipe2.png in Resources */,
+				0C8F1CB31F2403F30044EE6D /* flappy2.png in Resources */,
+				0C8F1CB41F2403F30044EE6D /* pipe1.png in Resources */,
+				0C8F1CB21F2403F30044EE6D /* flappy1.png in Resources */,
 				0CD0B5DA1F22C5750065BF2D /* LaunchScreen.storyboard in Resources */,
 				0CD0B5CE1F22C5750065BF2D /* Actions.sks in Resources */,
 			);
@@ -313,6 +333,7 @@
 				0CD0B5E01F22C5750065BF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
